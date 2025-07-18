@@ -1,0 +1,202 @@
+body {
+  min-height: 100%;
+  max-width: 100%;
+  background-image: url(src/images/Frame-4.svg);
+  background-repeat: repeat-y;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+@keyframes ContainerAnimate {
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@font-face {
+  font-family: "Lexend";
+  src: url(src/shrifts/LexendZetta-Light.ttf);
+}
+@font-face {
+  font-family: "Josefin";
+  src: url(src/shrifts/JosefinSans-Bold.ttf);
+}
+.Main__name {
+  position: relative;
+  text-align: center;
+  top: 216px;
+}
+.Main__name--sizeFont {
+  font-family: "Lexend";
+  font-size: 87px;
+}
+@media (max-width: 665px) {
+  .Main__name {
+    font-size: 65px;
+  }
+}
+
+.Form-main {
+  display: flex;
+  justify-content: center;
+}
+.Form-main__check {
+  position: relative;
+  width: 445px;
+  height: 110px;
+  text-align: center;
+  top: 433px;
+}
+.Form-main__check_border {
+  border-radius: 10.57px;
+}
+.Form-main__check_Fontcolor {
+  font-family: "Lexend";
+  font-size: 87px;
+  background: linear-gradient(to right, #FFFFFF 9%, #C2C2C2 33%, #CFCBCB 63%, #FFFFFF 88%);
+}
+
+.Under-Main {
+  text-align: center;
+}
+.Under-Main__First {
+  position: relative;
+  top: 604px;
+}
+@media (max-width: 489px) {
+  .Under-Main__First {
+    top: 880px;
+  }
+}
+@media (max-width: 486px) {
+  .Under-Main__First {
+    top: 700px;
+  }
+}
+@media (max-width: 830px) {
+  .Under-Main__First {
+    top: 620px;
+  }
+}
+@media (max-width: 820px) {
+  .Under-Main__First {
+    top: 700px;
+  }
+}
+@media (max-width: 483px) {
+  .Under-Main__First {
+    top: 880px;
+  }
+}
+.Under-Main__First_Font {
+  font-family: "Josefin";
+  font-weight: bold;
+  font-size: 87px;
+}
+.Under-Main__Second {
+  font-family: "Josefin";
+  position: relative;
+  font-size: 87px;
+  top: 420px;
+  z-index: -1;
+  left: 4px;
+}
+@media (max-width: 1470px) {
+  .Under-Main__Second {
+    top: 350px;
+  }
+}
+.Under-Main__Second_Font {
+  font-family: "Josefin";
+  font-weight: bold;
+  font-size: 87px;
+  -webkit-text-stroke: 2px black;
+  color: white;
+}
+
+.Container {
+  display: none;
+  justify-content: center;
+  background-image: linear-gradient(to right, #726D6D 0%, #FFFFFF 100%);
+}
+.Container_border {
+  border-radius: 100px;
+  box-shadow: 2px 2px 200px 2px rgb(64, 63, 63);
+}
+.Container__text_Font {
+  font-family: "Lexend";
+  font-size: 40px;
+}
+
+.FalseContainer {
+  overflow: scroll;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+  background: linear-gradient(to right, #FFFFFF 0%, #CDC9C9 100%);
+  z-index: 4;
+  position: fixed;
+  text-align: center;
+  max-width: 100%;
+  min-height: 100%;
+}
+.FalseContainer__Maintext {
+  position: relative;
+  font-family: "Lexend";
+  font-size: 40px;
+}
+@media (max-width: 550px) and (max-height: 929px) {
+  .FalseContainer__Maintext {
+    top: 100px;
+  }
+}
+@media (max-height: 600px) and (max-width: 1024px) {
+  .FalseContainer__Maintext {
+    top: 450px;
+  }
+}
+@media (max-width: 859px) {
+  .FalseContainer__Maintext {
+    top: 100px;
+  }
+}
+.FalseContainer_border {
+  border-radius: 20px;
+}
+.FalseContainer__Bold {
+  font-family: "Lexend";
+  font-size: 48px;
+}
+.FalseContainer__Url {
+  font-family: "Lexend";
+  font-size: 36px;
+  text-decoration: none;
+  color: rgb(152, 142, 180);
+}
+.FalseContainer__Url:hover {
+  text-decoration: underline;
+}
+.FalseContainer__Text {
+  font-family: "Lexend";
+  font-size: 36px;
+  text-align: left;
+}
+.FalseContainer__Aristotel {
+  position: relative;
+  top: 100px;
+}
+.FalseContainer__Exit {
+  position: relative;
+  left: 800px;
+  bottom: 90px;
+}
+.FalseContainer__Exit:hover {
+  border-radius: 20px;
+  box-shadow: 4px 4px #3a3838;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
